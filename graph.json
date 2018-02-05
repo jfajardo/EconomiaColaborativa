@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {"id": "red"},
+    {"id": "orange"},
+    {"id": "yellow"},
+    {"id": "green"},
+    {"id": "blue"},
+    {"id": "violet"},
+    {"id": "black"}
+  ],
+  "links": [
+    {"source": "red", "target": "yellow"},
+    {"source": "blue", "target": "yellow"},
+    {"source": "orange", "target": "red"},
+    {"source": "orange", "target": "blue"},
+    {"source": "orange", "target": "yellow"},
+    {"source": "red", "target": "blue"},
+    {"source": "red", "target": "green"}
+  ]
+}
